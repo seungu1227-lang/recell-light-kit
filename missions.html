@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="리셀라이트 키트 실험 미션">
+    <title>실험 미션 | 리셀라이트 키트</title>
+    <link rel="stylesheet" href="styles.css?v=detail-pages-1">
+  </head>
+  <body class="detail-page">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html#top" aria-label="메인으로 이동"><span class="brand-battery" aria-hidden="true"><span class="bolt">⚡</span></span><span class="brand-copy"><strong>리셀라이트 키트</strong><small>ReCell Light Kit</small></span></a>
+        <nav class="nav-links" aria-label="상세 메뉴"><a href="product.html">제품소개</a><a href="principle.html">원리</a><a href="guide.html">조립가이드</a><a href="missions.html">실험미션</a><a href="trouble.html">문제해결</a><a href="video.html">영상</a><a href="survey.html">설문조사</a><a href="faq.html">FAQ</a></nav>
+        <a class="start-button" href="index.html#top"><span>↩</span> 메인</a>
+      </header>
+      <main class="detail-main">
+        <section class="detail-hero">
+          <div class="detail-copy">
+            <p class="detail-kicker">실험 미션</p>
+            <h1>같은 건전지도 회로에 따라 결과가 달라집니다</h1>
+            <p>일반 LED 연결과 Joule Thief 회로를 비교하면서, 낮은 전압을 다루는 회로 설계의 의미를 직접 관찰합니다.</p>
+            <div class="next-actions"><a class="next-link" href="survey.html">설문 참여하기</a><a class="back-link" href="guide.html">조립 다시 보기</a></div>
+          </div>
+          <figure class="detail-media"><img src="assets/generated/detail-pages/missions-compare.png" alt="일반 LED 회로와 Joule Thief 회로 비교 이미지"></figure>
+        </section>
+
+        <section class="detail-section">
+          <h2>미션 순서</h2>
+          <div class="detail-grid">
+            <article class="detail-card"><h3>미션 1</h3><p>약한 AA 건전지를 일반 LED 회로에 연결하고 LED가 켜지는지 관찰합니다.</p></article>
+            <article class="detail-card"><h3>미션 2</h3><p>같은 건전지를 Joule Thief 회로에 연결하고 LED 밝기를 비교합니다.</p></article>
+            <article class="detail-card"><h3>미션 3</h3><p>새 건전지와 약한 건전지를 바꿔 끼우며 차이를 기록합니다.</p></article>
+            <article class="detail-card"><h3>미션 4</h3><p>코일 방향 또는 감은 수가 바뀌면 결과가 어떻게 달라지는지 관찰합니다.</p></article>
+            <article class="detail-card"><h3>관찰 질문</h3><p>왜 일반 연결에서는 안 켜졌는데 Joule Thief 회로에서는 켜질 수 있을까요?</p></article>
+            <article class="detail-card"><h3>발표 연결</h3><p>결과를 사진과 기록표로 남기면 발표 자료에 바로 활용할 수 있습니다.</p></article>
+          </div>
+        </section>
+
+        <section class="detail-section">
+          <h2>실험 기록</h2>
+          <div class="detail-grid two">
+            <figure class="detail-image"><img src="assets/generated/detail-pages/missions-record.png" alt="실험 기록 장면 이미지"></figure>
+            <div class="detail-form-grid">
+              <div class="mission-row" data-mission-row><input value="미션 1" aria-label="미션 이름"><input placeholder="관찰 결과 입력"><select aria-label="LED 결과"><option>꺼짐</option><option>약하게 켜짐</option><option>밝게 켜짐</option></select></div>
+              <div class="mission-row" data-mission-row><input value="미션 2" aria-label="미션 이름"><input placeholder="관찰 결과 입력"><select aria-label="LED 결과"><option>꺼짐</option><option>약하게 켜짐</option><option>밝게 켜짐</option></select></div>
+              <div class="mission-row" data-mission-row><input value="미션 3" aria-label="미션 이름"><input placeholder="관찰 결과 입력"><select aria-label="LED 결과"><option>차이 작음</option><option>차이 있음</option><option>차이 큼</option></select></div>
+              <div class="next-actions"><button class="action-button" type="button" data-save-missions>기록 저장</button><button class="back-link" type="button" data-reset-missions>기록 초기화</button></div>
+              <p class="notice-box" data-mission-status>기록은 현재 사용하는 기기에만 저장됩니다.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
